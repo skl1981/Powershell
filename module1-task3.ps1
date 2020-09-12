@@ -11,7 +11,7 @@ foreach($i in $content)
 
 $result = @{text = @{paragraph = $array}};
 $result | ConvertTo-Json -Depth 4 
-#| Out-File C:/module1-task3.json
+#| Out-File C:/module1-task3.json1
 
 
 
